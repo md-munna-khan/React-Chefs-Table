@@ -1,16 +1,6 @@
 
 
-// const Navbar = () => {
-//     return (
-//         <div className="my-8" style={{
-//             backgroundImage: 'url(https://i.ibb.co.com/nB0CqQ3/bg-image.png)'
-//         } }>
-          
-//         </div>
-//     );
-// };
 
-// export default Navbar;
 const Navbar = () => {
     return (
         <div className="my-8 bg-cover bg-no-repeat rounded-3xl w-full h-full   md:h-[35.5rem]" style={{
