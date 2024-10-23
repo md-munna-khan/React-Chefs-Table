@@ -1,0 +1,117 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co/rsd6XR2/delicious-pasta-plate.jpg",
+      "recipe_id": "1",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 large eggs",
+        "50 g Pecorino Romano cheese",
+        "50 g Parmesan cheese",
+        "Black pepper",
+        "Salt"
+      ],
+      "preparing_time": "25 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/6wCxYZQ/top-view-different-pasta-composition-raw-product-inside-plates-grey-table.jpg",
+      "recipe_id": "2",
+      "recipe_name": "Pasta Primavera",
+      "short_description": "A fresh and light pasta dish with a variety of vegetables.",
+      "ingredients": [
+        "200 g pasta",
+        "1 zucchini",
+        "1 bell pepper",
+        "100 g cherry tomatoes",
+        "50 g peas",
+        "2 cloves garlic",
+        "50 g Parmesan cheese",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "preparing_time": "30 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/zfrgXDT/ai-generated-pasta.jpg",
+      "recipe_id": "3",
+      "recipe_name": "Pesto Pasta",
+      "short_description": "A flavorful pasta dish with homemade pesto sauce.",
+      "ingredients": [
+        "200 g pasta",
+        "100 g basil leaves",
+        "50 g pine nuts",
+        "2 cloves garlic",
+        "50 g Parmesan cheese",
+        "100 ml olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "preparing_time": "20 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/RCtFRKF/penne-pasta-with-tomato-sauce-with-sausage-tomatoes-green-basil-decorated-frying-pan-wooden-table.jpg",
+      "recipe_id": "4",
+      "recipe_name": "Penne Arrabbiata",
+      "short_description": "A spicy pasta dish with a rich tomato sauce.",
+      "ingredients": [
+        "200 g penne",
+        "400 g tomatoes",
+        "2 cloves garlic",
+        "1 red chili pepper",
+        "50 g Parmesan cheese",
+        "Olive oil",
+        "Salt",
+        "Pepper",
+        "Basil leaves"
+      ],
+      "preparing_time": "25 min",
+      "calories": "380 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/R9KWHKz/delicious-fried-chicken-plate.jpg",
+      "recipe_id": "5",
+      "recipe_name": "Fried Chicken",
+      "short_description": "Crispy and juicy fried chicken with a flavorful coating.",
+      "ingredients": [
+        "500 g chicken pieces",
+        "200 g flour",
+        "2 eggs",
+        "100 ml buttermilk",
+        "Salt",
+        "Pepper",
+        "Paprika",
+        "Garlic powder",
+        "Onion powder",
+        "Oil for frying"
+      ],
+      "preparing_time": "45 min",
+      "calories": "550 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/txgxNvW/delicious-burger-studio.jpg",
+      "recipe_id": "6",
+      "recipe_name": "Classic Cheeseburger",
+      "short_description": "A juicy beef burger with cheese, lettuce, tomato, and onion.",
+      "ingredients": [
+        "200 g ground beef",
+        "2 slices cheddar cheese",
+        "1 lettuce leaf",
+        "1 tomato",
+        "1 onion",
+        "2 burger buns",
+        "Salt",
+        "Pepper",
+        "Ketchup",
+        "Mustard"
+      ],
+      "preparing_time": "20 min",
+      "calories": "600 calories"
+    }
+  ]
+  
