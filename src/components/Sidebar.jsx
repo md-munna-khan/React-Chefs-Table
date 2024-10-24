@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import PropTypes from 'prop-types';
 
-const Sidebar = ({recipeQues,handleRemove,preparedRecipe}) => {
+const Sidebar = ({recipeQues,handleRemove,preparedRecipe,  totalTime,totalCalorie,calculateTimeAndCalorie}) => {
     return (
         <div className="w-1/3 border rounded-2xl">
         <div className="text-center border rounded-lg">
@@ -30,7 +31,10 @@ const Sidebar = ({recipeQues,handleRemove,preparedRecipe}) => {
         <td>{recipe.recipe_name}</td>
         <td>{recipe.preparing_time}</td>
         <td>{recipe.calories}</td>
-        <button onClick={()=>handleRemove(recipe.recipe_id)}
+        <button onClick={()=>{
+        handleRemove(recipe.recipe_id)
+          calculateTimeAndCalorie(recipe.preparing_time,recipe.calories)}
+        }
          className="bg-[#0BE58A] rounded-xl font-bold p-2">Preparing</button>
       
       </tr>))
@@ -52,7 +56,7 @@ const Sidebar = ({recipeQues,handleRemove,preparedRecipe}) => {
         <th>Name</th>
         <th>time</th>
         <th>calories</th>
-        <th></th>
+      
       </tr>
      
     </thead>
@@ -65,12 +69,16 @@ const Sidebar = ({recipeQues,handleRemove,preparedRecipe}) => {
         <td>{recipe.recipe_name}</td>
         <td>{recipe.preparing_time}</td>
         <td>{recipe.calories}</td>
-        <button onClick={()=>handleRemove(recipe.recipe_id)}
-         className="bg-[#0BE58A] rounded-xl font-bold p-2">Preparing</button>
       
       </tr>))
     }
-     
+     <tr className='border-none'>
+     <th></th>
+        <td></td>
+        <td>total time = {totalTime}</td>
+        <td>total calories = {totalCalorie}</td>
+
+     </tr>
      
     </tbody>
   </table>
@@ -80,7 +88,7 @@ const Sidebar = ({recipeQues,handleRemove,preparedRecipe}) => {
         </div>
     );
 };
-Sidebar.prototype={
-  preparedRecipe:PropTypes.func
+Sidebar.propTypes ={
+  preparedRecipe:PropTypes.array
 }
 export default Sidebar;

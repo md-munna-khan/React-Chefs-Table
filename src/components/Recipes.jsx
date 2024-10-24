@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { CiTimer } from "react-icons/ci";
 import { FaBurn } from "react-icons/fa";
